@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-model =ChatOpenAI()
+model = ChatOpenAI()
 
 chatHistory =[
     systemMessage(content="You are a helpful assistant."),
