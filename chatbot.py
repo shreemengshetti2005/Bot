@@ -10,7 +10,7 @@ chatHistory =[
     systemMessage(content="You are a helpful assistant."),
 ]
 
-while True
+while True:
     user_input =input('You: ')
     chatHistory.append(HumanMessage(content=user_input))
     if user_input.lower =='exit':
