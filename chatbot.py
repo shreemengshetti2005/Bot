@@ -6,6 +6,7 @@ load_dotenv()
 
 model = ChatOpenAI()
 
+
 chatHistory =[
     systemMessage(content="You are a helpful assistant."),
 ]
