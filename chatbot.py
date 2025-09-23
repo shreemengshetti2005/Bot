@@ -8,7 +8,7 @@ model = ChatOpenAI()
 
 
 chatHistory =[
-    systemMessage(content="You are a helpful assistant.."),
+    systemMessage(content="You are a helpful assistan"),
 ]
 
 while True:
